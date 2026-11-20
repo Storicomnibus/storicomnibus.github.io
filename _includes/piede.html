@@ -1,0 +1,16 @@
+<footer class="piede">
+  <div class="contenitore piede-griglia">
+    <div>
+      <strong>{{ site.data.sito.nome }}</strong>
+      <p>{{ site.data.sito.indirizzo }}</p>
+    </div>
+    <div>
+      <p><a href="mailto:{{ site.data.sito.email }}">{{ site.data.sito.email }}</a><br>
+      Tel. {{ site.data.sito.telefono }}</p>
+    </div>
+    <div>
+      {% if site.data.sito.facebook != "" %}<p><a href="{{ site.data.sito.facebook }}" rel="noopener">Seguici su Facebook</a></p>{% endif %}
+      <p class="piccolo">© {{ site.time | date: "%Y" }} StoricOmnibus</p>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,9 @@
+- { titolo: Home, link: / }
+- { titolo: Chi siamo, link: /chi-siamo/ }
+- { titolo: Storia, link: /storia/ }
+- { titolo: Progetti, link: /progetti/ }
+- { titolo: Gallerie, link: /gallerie/ }
+- { titolo: Notizie, link: /notizie/ }
+- { titolo: Video, link: /video/ }
+- { titolo: Associati, link: /associati/ }
+- { titolo: Contatti, link: /contatti/ }

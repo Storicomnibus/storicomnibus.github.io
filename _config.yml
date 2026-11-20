@@ -1,0 +1,22 @@
+# Impostazioni tecniche del sito (di solito non serve toccarle).
+# I dati che cambiano (email, telefono, indirizzo, video) sono in _data/sito.yml
+title: Associazione Culturale StoricOmnibus
+description: >-
+  Associazione culturale nata per conservare e trasmettere la memoria storica
+  dei trasporti dell'Umbria, con particolare attenzione al trasporto pubblico locale.
+url: https://storicomnibus.it
+lang: it
+timezone: Europe/Rome
+permalink: /notizie/:year/:title/
+collections:
+  gallerie:
+    output: true
+    permalink: /gallerie/:name/
+defaults:
+  - scope: { path: "" }
+    values: { layout: pagina }
+  - scope: { path: "", type: posts }
+    values: { layout: notizia }
+  - scope: { path: "", type: gallerie }
+    values: { layout: galleria }
+exclude: [README.md, ISTRUZIONI.md, Gemfile, Gemfile.lock, vendor]

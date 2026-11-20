@@ -1,0 +1,19 @@
+nome: Associazione Culturale StoricOmnibus
+motto: La memoria storica dei trasporti dell'Umbria
+email: info@storicomnibus.it
+telefono: "075 5067853"
+orari_telefono: "dal lunedì al venerdì, 8:30 – 18:00"
+indirizzo: "Strada Santa Lucia 4, 06125 Perugia"
+facebook: https://www.facebook.com/storicomnibus
+# Incolla qui l'indirizzo del video su YouTube (es. https://www.youtube.com/watch?v=XXXX).
+# Lascialo vuoto finché il video non è caricato.
+video_youtube: ""
+
+# Elenco dei siti amici mostrato nella pagina Contatti
+siti_amici:
+  - nome: A.I.T.E. – Associazione Italiana Trasporti d'Epoca
+    url: http://www.trasportidepoca.it
+  - nome: A.I.A.C. – Associazione Italiana Autoveicoli Classici
+    url: http://www.aiac.eu
+  - nome: Bus Fan Blog (Alessio Tempesta)
+    url: http://www.tempy985.blogspot.it

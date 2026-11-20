@@ -1,0 +1,12 @@
+<ul class="notizie">
+  {% for n in site.posts limit: include.limite %}
+    <li>
+      <a href="{{ n.url | relative_url }}">
+        {% if n.immagine %}<img src="{{ n.immagine | relative_url }}" alt="" loading="lazy">{% endif %}
+        <span><span class="data">{{ n.date | date: "%d/%m/%Y" }}</span>
+        <strong>{{ n.title }}</strong>
+        {{ n.excerpt | strip_html | truncate: 140 }}</span>
+      </a>
+    </li>
+  {% endfor %}
+</ul>

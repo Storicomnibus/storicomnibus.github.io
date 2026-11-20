@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<section class="contenitore pagina">
+  <h1>{{ page.title }}</h1>
+  {% if content != "" %}<div class="testo stretto-testo">{{ content }}</div>{% endif %}
+  <div class="griglia-foto" data-galleria>
+    {% for foto in page.foto %}
+      <a href="{{ foto | relative_url }}" class="foto"><img src="{{ foto | relative_url }}" alt="{{ page.title }} – foto {{ forloop.index }}" loading="lazy"></a>
+    {% endfor %}
+  </div>
+  <p><a href="{{ '/gallerie/' | relative_url }}">← Tutte le gallerie</a></p>
+</section>

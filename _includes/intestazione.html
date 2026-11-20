@@ -1,0 +1,17 @@
+<header class="testata">
+  <div class="contenitore testata-riga">
+    <a class="marchio" href="{{ '/' | relative_url }}">
+      <span class="marchio-nome">Storic<span>Omnibus</span></span>
+      <span class="marchio-motto">{{ site.data.sito.motto }}</span>
+    </a>
+    <button class="menu-bottone" aria-expanded="false" aria-controls="menu">Menu</button>
+    <nav id="menu" class="menu">
+      {% for voce in site.data.menu %}
+        {% assign attivo = false %}
+        {% if voce.link == "/" %}{% if page.url == "/" %}{% assign attivo = true %}{% endif %}
+        {% elsif page.url contains voce.link %}{% assign attivo = true %}{% endif %}
+        <a href="{{ voce.link | relative_url }}"{% if attivo %} aria-current="page"{% endif %}>{{ voce.titolo }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>

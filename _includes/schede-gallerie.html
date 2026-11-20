@@ -1,0 +1,10 @@
+{% assign elenco = site.gallerie | sort: "ordine" %}
+<div class="schede">
+  {% for g in elenco limit: include.limite %}
+    <a class="scheda" href="{{ g.url | relative_url }}">
+      <img src="{{ g.copertina | default: g.foto[0] | relative_url }}" alt="" loading="lazy">
+      <span class="scheda-titolo">{{ g.title }}</span>
+      <span class="scheda-sotto">{{ g.foto | size }} foto</span>
+    </a>
+  {% endfor %}
+</div>

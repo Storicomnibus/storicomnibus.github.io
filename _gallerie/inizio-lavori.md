@@ -1,0 +1,56 @@
+---
+title: Inizio lavori sul Fiat 418
+ordine: 1
+foto:
+  - /assets/foto/inizio-lavori/2-10-11-2007-012.jpg
+  - /assets/foto/inizio-lavori/2-10-11-2007-013.jpg
+  - /assets/foto/inizio-lavori/2-10-11-2007-014.jpg
+  - /assets/foto/inizio-lavori/2-10-11-2007-015.jpg
+  - /assets/foto/inizio-lavori/2-10-11-2007-016.jpg
+  - /assets/foto/inizio-lavori/2-10-11-2007-017.jpg
+  - /assets/foto/inizio-lavori/2-10-11-2007-018.jpg
+  - /assets/foto/inizio-lavori/2-10-11-2007-019.jpg
+  - /assets/foto/inizio-lavori/2-10-11-2007-020.jpg
+  - /assets/foto/inizio-lavori/2-10-11-2007-021.jpg
+  - /assets/foto/inizio-lavori/2-10-11-2007-022.jpg
+  - /assets/foto/inizio-lavori/2-10-11-2007-023.jpg
+  - /assets/foto/inizio-lavori/2-10-11-2007-024.jpg
+  - /assets/foto/inizio-lavori/2-10-11-2007-025.jpg
+  - /assets/foto/inizio-lavori/2-10-11-2007-026.jpg
+  - /assets/foto/inizio-lavori/2-10-11-2007-027.jpg
+  - /assets/foto/inizio-lavori/2-10-11-2007-028.jpg
+  - /assets/foto/inizio-lavori/2-10-11-2007-029.jpg
+  - /assets/foto/inizio-lavori/2-10-11-2007-030.jpg
+  - /assets/foto/inizio-lavori/2-10-11-2007-031.jpg
+  - /assets/foto/inizio-lavori/2-10-11-2007-032.jpg
+  - /assets/foto/inizio-lavori/2-10-11-2007-033.jpg
+  - /assets/foto/inizio-lavori/2-10-11-2007-034.jpg
+  - /assets/foto/inizio-lavori/2-10-11-2007-035.jpg
+  - /assets/foto/inizio-lavori/2-10-11-2007-036.jpg
+  - /assets/foto/inizio-lavori/2-10-11-2007-037.jpg
+  - /assets/foto/inizio-lavori/2-10-11-2007-038.jpg
+  - /assets/foto/inizio-lavori/2-10-11-2007-039.jpg
+  - /assets/foto/inizio-lavori/2-10-11-2007-040.jpg
+  - /assets/foto/inizio-lavori/2-10-11-2007-041.jpg
+  - /assets/foto/inizio-lavori/2-10-11-2007-042.jpg
+  - /assets/foto/inizio-lavori/25-10-2007-001.jpg
+  - /assets/foto/inizio-lavori/25-10-2007-002.jpg
+  - /assets/foto/inizio-lavori/25-10-2007-003.jpg
+  - /assets/foto/inizio-lavori/25-10-2007-004.jpg
+  - /assets/foto/inizio-lavori/25-10-2007-005.jpg
+  - /assets/foto/inizio-lavori/25-10-2007-006.jpg
+  - /assets/foto/inizio-lavori/25-10-2007-007.jpg
+  - /assets/foto/inizio-lavori/25-10-2007-008.jpg
+  - /assets/foto/inizio-lavori/25-10-2007-009.jpg
+  - /assets/foto/inizio-lavori/26-10-2007-001.jpg
+  - /assets/foto/inizio-lavori/26-10-2007-002.jpg
+  - /assets/foto/inizio-lavori/26-10-2007-003.jpg
+  - /assets/foto/inizio-lavori/26-10-2007-004.jpg
+  - /assets/foto/inizio-lavori/26-10-2007-005.jpg
+  - /assets/foto/inizio-lavori/26-10-2007-006.jpg
+  - /assets/foto/inizio-lavori/26-10-2007-007.jpg
+  - /assets/foto/inizio-lavori/26-10-2007-008.jpg
+  - /assets/foto/inizio-lavori/26-10-2007-009.jpg
+  - /assets/foto/inizio-lavori/26-10-2007-010.jpg
+---
+Ottobre–novembre 2007: le prime fasi del restauro del Fiat 418 AC Minerva.

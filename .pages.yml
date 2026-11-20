@@ -1,0 +1,146 @@
+# Configurazione del pannello di modifica (Pages CMS - https://app.pagescms.org)
+media:
+  input: assets/foto
+  output: /assets/foto
+
+content:
+  - name: notizie
+    label: Notizie
+    type: collection
+    path: _posts
+    filename: "{year}-{month}-{day}-{fields.title}.md"
+    view:
+      fields: [title, date]
+      primary: title
+      default:
+        sort: date
+        order: desc
+    fields:
+      - name: title
+        label: Titolo
+        type: string
+        required: true
+      - name: date
+        label: Data
+        type: date
+        required: true
+      - name: immagine
+        label: Immagine (facoltativa)
+        type: image
+      - name: body
+        label: Testo
+        type: rich-text
+
+  - name: gallerie
+    label: Gallerie fotografiche
+    type: collection
+    path: _gallerie
+    filename: "{fields.title}.md"
+    view:
+      fields: [title, ordine]
+      primary: title
+      default:
+        sort: ordine
+        order: asc
+    fields:
+      - name: title
+        label: Titolo della galleria
+        type: string
+        required: true
+      - name: ordine
+        label: Posizione nell'elenco (1 = prima)
+        type: number
+      - name: copertina
+        label: Foto di copertina (se vuota si usa la prima)
+        type: image
+      - name: foto
+        label: Foto
+        type: image
+        list: true
+      - name: body
+        label: Descrizione
+        type: rich-text
+
+  - name: pagine
+    label: Pagine
+    type: group
+    items:
+      - name: chi-siamo
+        label: Chi siamo
+        type: file
+        path: chi-siamo.md
+        fields: &campi_pagina
+          - name: title
+            label: Titolo
+            type: string
+          - name: permalink
+            label: Indirizzo (non modificare)
+            type: string
+            readonly: true
+          - name: immagine
+            label: Immagine in alto (facoltativa)
+            type: image
+          - name: body
+            label: Testo
+            type: rich-text
+      - name: storia
+        label: Storia
+        type: file
+        path: storia.md
+        fields: *campi_pagina
+      - name: progetti
+        label: Progetti
+        type: file
+        path: progetti.md
+        fields: *campi_pagina
+      - name: associati
+        label: Diventa socio
+        type: file
+        path: associati.md
+        fields: *campi_pagina
+      - name: consiglio
+        label: Consiglio direttivo
+        type: file
+        path: consiglio.md
+        fields: *campi_pagina
+
+  - name: impostazioni
+    label: Contatti, video e link
+    type: file
+    path: _data/sito.yml
+    fields:
+      - name: nome
+        label: Nome dell'associazione
+        type: string
+      - name: motto
+        label: Motto (sotto il nome in alto)
+        type: string
+      - name: email
+        label: Email
+        type: string
+      - name: telefono
+        label: Telefono
+        type: string
+      - name: orari_telefono
+        label: Orari telefono
+        type: string
+      - name: indirizzo
+        label: Indirizzo
+        type: string
+      - name: facebook
+        label: Pagina Facebook (indirizzo completo)
+        type: string
+      - name: video_youtube
+        label: Video YouTube (indirizzo completo, lascia vuoto se non c'è)
+        type: string
+      - name: siti_amici
+        label: Siti amici
+        type: object
+        list: true
+        fields:
+          - name: nome
+            label: Nome
+            type: string
+          - name: url
+            label: Indirizzo
+            type: string

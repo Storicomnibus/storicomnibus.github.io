@@ -1,0 +1,31 @@
+---
+layout: default
+title: Home
+---
+<section class="copertina" style="background-image:url('{{ '/assets/foto/gualdo-tadino/418.jpg' | relative_url }}')">
+  <div class="contenitore copertina-testo">
+    <p class="occhiello">Associazione culturale · Perugia, dal 2007</p>
+    <h1>Salviamo la memoria del trasporto pubblico umbro</h1>
+    <p>Autobus storici, filobus, fotografie, biglietti e ricordi: li recuperiamo, li restauriamo e li raccontiamo.</p>
+    <p><a class="bottone" href="{{ '/chi-siamo/' | relative_url }}">Chi siamo</a> <a class="bottone chiaro" href="{{ '/associati/' | relative_url }}">Diventa socio</a></p>
+  </div>
+</section>
+
+<section class="contenitore blocco">
+  <div class="due-colonne">
+    <div>
+      <h2>Il Fiat 418 AC Minerva</h2>
+      <p>Tutto è cominciato da qui: uno degli ultimi autobus storici dell'APM, destinato alla demolizione, restaurato con circa 800 ore di lavoro volontario.</p>
+      <p><a href="{{ '/storia/' | relative_url }}">Leggi la nostra storia →</a></p>
+    </div>
+    <div>
+      <h2>Ultime notizie</h2>
+      {% include elenco-notizie.html limite=3 %}
+    </div>
+  </div>
+</section>
+
+<section class="contenitore blocco">
+  <h2>Gallerie fotografiche</h2>
+  {% include schede-gallerie.html limite=6 %}
+</section>
